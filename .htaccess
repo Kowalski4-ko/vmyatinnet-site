@@ -1,0 +1,12 @@
+# Редирект www -> без www, с сохранением пути и протокола.
+# Именно здесь, а не через «Настройка редиректов» в ISPmanager: www и
+# основной домен там — один и тот же сайт без разделения по хосту, и
+# путь-редирект зациклил бы сайт (проверено на kowalt.ru).
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.xn--b1agipga6ae5i\.com$ [NC]
+  RewriteRule ^(.*)$ https://xn--b1agipga6ae5i.com/$1 [R=301,L]
+</IfModule>
+
+# Несуществующий адрес отдаёт фирменную страницу 404.html, а не заглушку сервера.
+ErrorDocument 404 /404.html

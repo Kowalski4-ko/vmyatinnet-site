@@ -1,0 +1,19 @@
+{
+  "name": "Вмятин Нет",
+  "short_name": "Вмятин Нет",
+  "description": "Ремонт вмятин без покраски в станице Динской",
+  "lang": "ru",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon",
+      "purpose": "any"
+    }
+  ]
+}

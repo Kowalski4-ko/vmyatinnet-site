@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".6" stop-color="#0a0a0a"/><stop offset="1" stop-color="#211b0c"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9e7918"/><stop offset=".32" stop-color="#f9d976"/><stop offset=".65" stop-color="#d4af37"/><stop offset="1" stop-color="#a88624"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="110" r="360" fill="none" stroke="#d4af37" stroke-opacity=".13" stroke-width="2"/>
+  <circle cx="1030" cy="110" r="270" fill="none" stroke="#d4af37" stroke-opacity=".09" stroke-width="2"/>
+  <path d="M930 112c-45 35-99 46-190 58v102c0 66 48 104 190 160 142-56 190-94 190-160V170c-91-12-145-23-190-58Z" fill="#080808" stroke="url(#gold)" stroke-width="10"/>
+  <path d="M930 130c-42 30-90 41-169 51v86c0 53 42 84 169 134 127-50 169-81 169-134v-86c-79-10-127-21-169-51Z" fill="none" stroke="#d4af37" stroke-opacity=".48" stroke-width="3"/>
+  <text x="930" y="290" text-anchor="middle" fill="url(#gold)" font-family="Arial,sans-serif" font-size="48" font-weight="900">ВМЯТИН НЕТ</text>
+  <text x="80" y="120" fill="#f9d976" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="4">PDR · СТАНИЦА ДИНСКАЯ</text>
+  <text x="80" y="225" fill="#ffffff" font-family="Arial,sans-serif" font-size="64" font-weight="800">Ремонт вмятин</text>
+  <text x="80" y="305" fill="#ffffff" font-family="Arial,sans-serif" font-size="64" font-weight="800">без покраски</text>
+  <text x="80" y="380" fill="url(#gold)" font-family="Arial,sans-serif" font-size="64" font-weight="800">в Динской</text>
+  <text x="80" y="482" fill="#cfcfcb" font-family="Arial,sans-serif" font-size="25">Сохраняем заводское лакокрасочное покрытие</text>
+  <text x="80" y="548" fill="#f9d976" font-family="Arial,sans-serif" font-size="29" font-weight="700">+7 (938) 500-02-20</text>
+</svg>
